@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AnteraSwimlaneComponent } from './pages/antera-swimlane/antera-swimlane.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: '/', pathMatch: 'full' },
   { path: 'swimlane', component: AnteraSwimlaneComponent }
 ];
 
