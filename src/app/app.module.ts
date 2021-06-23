@@ -31,20 +31,23 @@ import { MatPaginatorModule } from '@angular/material/paginator'; // PAGINATOR
 import { MatProgressBarModule } from '@angular/material/progress-bar'; // PROGRESS BAR
 
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // PROGRESS SPINNER
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
+import {MatRadioModule} from '@angular/material/radio'; // ??
+import {MatRippleModule} from '@angular/material/core'; // ??
+import {MatSelectModule} from '@angular/material/select'; // ??
+import {MatSidenavModule} from '@angular/material/sidenav'; // ??
 
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
+import {MatSlideToggleModule} from '@angular/material/slide-toggle'; // ??
+import {MatSliderModule} from '@angular/material/slider'; // ??
+import {MatSnackBarModule} from '@angular/material/snack-bar'; // ??
+import {MatSortModule} from '@angular/material/sort'; // ??
+import {MatStepperModule} from '@angular/material/stepper'; // ??
 
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // ??
+import {MatTableModule} from '@angular/material/table'; // ??
+import {MatTabsModule} from '@angular/material/tabs'; // ??
+import {MatToolbarModule} from '@angular/material/toolbar'; // ??
+import {MatTooltipModule} from '@angular/material/tooltip'; // ??
+import {MatTreeModule} from '@angular/material/tree';
+
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatInputModule],
