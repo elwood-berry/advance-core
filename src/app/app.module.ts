@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { AnteraTableComponent } from './components/antera-table/antera-table.component';
+
+import { RoutingModule } from './app.routing.module'; // ROUTER
 
 // ANGULAR MATERIAL
 import { MatAutocompleteModule } from '@angular/material/autocomplete'; // AUTOCOMPLETE
@@ -58,6 +59,9 @@ import { AnteraSwimlaneComponent } from './pages/antera-swimlane/antera-swimlane
   imports: [
     BrowserModule,
     FormsModule,
+    RoutingModule,
+
+    // ANGULAR MATERIAL
     MatAutocompleteModule,
     MatBadgeModule,
     MatBottomSheetModule,
@@ -95,7 +99,8 @@ import { AnteraSwimlaneComponent } from './pages/antera-swimlane/antera-swimlane
   declarations: [
     AppComponent,
     HelloComponent,
-    AnteraTableComponent,
+
+    // PAGES 
     AnteraSwimlaneComponent
   ],
   bootstrap: [AppComponent]
