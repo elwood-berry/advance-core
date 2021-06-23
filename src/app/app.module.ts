@@ -8,7 +8,7 @@ import { AnteraTableComponent } from './components/antera-table/antera-table.com
 // ANGULAR MATERIAL
 import { MatAutocompleteModule } from '@angular/material/autocomplete'; // AUTOCOMPLETE
 import { MatBadgeModule } from '@angular/material/badge'; // BADGE
-import { MatBottomSheetModule } from '@angular/material/bottom-sheet'; // BOTTOM SHEET 
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet'; // BOTTOM SHEET
 import { MatButtonModule } from '@angular/material/button'; // BUTTON
 import { MatButtonToggleModule } from '@angular/material/button-toggle'; // BUTTON SYLE
 
@@ -22,7 +22,7 @@ import { MatDividerModule } from '@angular/material/divider'; // DIVIDER
 import { MatExpansionModule } from '@angular/material/expansion'; // EXPANSION
 import { MatFormFieldModule } from '@angular/material/form-field'; // FORM FIELD
 import { MatGridListModule } from '@angular/material/grid-list'; // GRID LIST
-import { MatIconModule } from '@angular/material/icon'; // ICON 
+import { MatIconModule } from '@angular/material/icon'; // ICON
 
 import { MatInputModule } from '@angular/material/input'; // INPUT
 import { MatListModule } from '@angular/material/list'; // LIST
@@ -31,23 +31,22 @@ import { MatPaginatorModule } from '@angular/material/paginator'; // PAGINATOR
 import { MatProgressBarModule } from '@angular/material/progress-bar'; // PROGRESS BAR
 
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // PROGRESS SPINNER
-import {MatRadioModule} from '@angular/material/radio'; // ??
-import {MatRippleModule} from '@angular/material/core'; // ??
-import {MatSelectModule} from '@angular/material/select'; // ??
-import {MatSidenavModule} from '@angular/material/sidenav'; // ??
+import { MatRadioModule } from '@angular/material/radio'; // RADIO BUTTONS
+import { MatRippleModule } from '@angular/material/core'; // RIPPLE
+import { MatSelectModule } from '@angular/material/select'; // SELECT
+import { MatSidenavModule } from '@angular/material/sidenav'; // SIDENAV
 
-import {MatSlideToggleModule} from '@angular/material/slide-toggle'; // ??
-import {MatSliderModule} from '@angular/material/slider'; // ??
-import {MatSnackBarModule} from '@angular/material/snack-bar'; // ??
-import {MatSortModule} from '@angular/material/sort'; // ??
-import {MatStepperModule} from '@angular/material/stepper'; // ??
+import { MatSlideToggleModule } from '@angular/material/slide-toggle'; // SLIDE TOGGLE
+import { MatSliderModule } from '@angular/material/slider'; // SLIDER
+import { MatSnackBarModule } from '@angular/material/snack-bar'; // SNACKBAR
+import { MatSortModule } from '@angular/material/sort'; // SORT
+import { MatStepperModule } from '@angular/material/stepper'; // STEPPER
 
-import {MatTableModule} from '@angular/material/table'; // ??
-import {MatTabsModule} from '@angular/material/tabs'; // ??
-import {MatToolbarModule} from '@angular/material/toolbar'; // ??
-import {MatTooltipModule} from '@angular/material/tooltip'; // ??
-import {MatTreeModule} from '@angular/material/tree';
-
+import { MatTableModule } from '@angular/material/table'; // TABLE
+import { MatTabsModule } from '@angular/material/tabs'; // TABS
+import { MatToolbarModule } from '@angular/material/toolbar'; // TOOLBAR
+import { MatTooltipModule } from '@angular/material/tooltip'; // TOOLTIP
+import { MatTreeModule } from '@angular/material/tree'; // TREE
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatInputModule],
