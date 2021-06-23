@@ -2,12 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 // PAGES
-import { AnteraSwimlaneComponent } from './pages/antera-swimlane/antera-swimlane.component';
 
-const routes: Routes = [
-  { path: '', redirectTo: '/', pathMatch: 'full' },
-  { path: 'swimlane', component: AnteraSwimlaneComponent }
-];
+const routes: Routes = [{ path: '', redirectTo: '/', pathMatch: 'full' }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

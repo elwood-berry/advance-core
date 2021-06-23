@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
-import { RoutingModule } from './app.routing.module'; // ROUTER
+// import { RoutingModule } from './app.routing.module'; // ROUTER
 
 // ANGULAR MATERIAL
 import { MatAutocompleteModule } from '@angular/material/autocomplete'; // AUTOCOMPLETE
@@ -53,13 +53,13 @@ import { MatTooltipModule } from '@angular/material/tooltip'; // TOOLTIP
 import { MatTreeModule } from '@angular/material/tree';
 
 // PAGES
-import { AnteraSwimlaneComponent } from './pages/antera-swimlane/antera-swimlane.component'; // TREE
+// import { AnteraSwimlaneComponent } from './pages/antera-swimlane/antera-swimlane.component'; // TREE
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    RoutingModule,
+    // RoutingModule,
 
     // ANGULAR MATERIAL
     MatAutocompleteModule,
@@ -101,7 +101,7 @@ import { AnteraSwimlaneComponent } from './pages/antera-swimlane/antera-swimlane
     HelloComponent,
 
     // PAGES 
-    AnteraSwimlaneComponent
+    // AnteraSwimlaneComponent
   ],
   bootstrap: [AppComponent]
 })
