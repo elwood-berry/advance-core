@@ -19,6 +19,9 @@ import { MatDatepickerModule } from '@angular/material/datepicker'; // DATE PICK
 import { MatDialogModule } from '@angular/material/dialog'; // DIALOG
 
 import { MatDividerModule } from '@angular/material/divider'; // DIVIDER
+
+import { DragDropModule } from '@angular/cdk/drag-drop'; // DRAG & DROP
+
 import { MatExpansionModule } from '@angular/material/expansion'; // EXPANSION
 import { MatFormFieldModule } from '@angular/material/form-field'; // FORM FIELD
 import { MatGridListModule } from '@angular/material/grid-list'; // GRID LIST
@@ -46,7 +49,10 @@ import { MatTableModule } from '@angular/material/table'; // TABLE
 import { MatTabsModule } from '@angular/material/tabs'; // TABS
 import { MatToolbarModule } from '@angular/material/toolbar'; // TOOLBAR
 import { MatTooltipModule } from '@angular/material/tooltip'; // TOOLTIP
-import { MatTreeModule } from '@angular/material/tree'; // TREE
+import { MatTreeModule } from '@angular/material/tree';
+
+// PAGES
+import { AnteraSwimlaneComponent } from './pages/antera-swimlane/antera-swimlane.component'; // TREE
 
 @NgModule({
   imports: [
@@ -86,7 +92,12 @@ import { MatTreeModule } from '@angular/material/tree'; // TREE
     MatTooltipModule,
     MatTreeModule
   ],
-  declarations: [AppComponent, HelloComponent, AnteraTableComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    AnteraTableComponent,
+    AnteraSwimlaneComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
